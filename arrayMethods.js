@@ -34,5 +34,23 @@ phoneNumber.reverse();
 var orderQueue = [{ takeOut: 'Ice Cream' }, { takeOut: 'Medium Salad'}, { takeOut: 'Burger'}];
 nextOrder = orderQueue.shift();
 
+var mixedNums = [5, 81, 40, 4, 805, 10, 76, 21, 3, 2, 7, 1, 7];
+mixedNums.sort();
 
+var mixedWords = ['Dont', 'You', 'Forget', 'About', 'Me'];
+mixedWords.sort();
 
+var fruitCollection = ['Apple', 'Scissors', 'Pug', 'Lady Bug', 'Banana', 'Pear'];
+notFruit = fruitCollection.splice(1,3);
+
+var gemBox = ['Ruby', 'Diamond', 'Diamond', 'Emerald', 'Moonstone', 'Pizza', 'Sneaker', 'Sapphire', 'Baby', 'Jeans', 'Soda Can', 'Boat'];
+gemBox.splice(5,7,"Sapphire");
+
+var upToTen = [1, 2, 9, 10];
+upToTen.splice(2,0,3,4,5,6,7,8);
+
+var brownOnly = ['brown', 'brownish', 'ad8fy7iuhj23nrsf', 9813, {}, undefined,  'brown'];
+brownOnly.splice(1,5,'brown','brown','brown');
+
+var orderedValues = [4, 5, 6, 7, 8, 9, 10];
+orderedValues.
