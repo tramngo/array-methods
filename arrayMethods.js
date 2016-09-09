@@ -21,3 +21,12 @@ nameArray.push('Tram','Ngo');
 
 var genericNumberArray = [1, 2, 3, 4, 5];
 genericNumberArray.push(6,7,8,9,10);
+
+var colors = ['Blue', 'Red', 'Yellow', 'Charlie'];
+popResult = colors.pop();
+
+var scrambledWords = ['win', 'the', 'for', 'burritos'];
+scrambledWords.reverse();
+
+var phoneNumber = [9, 0, 3, 5, 7, 6, 8];
+phoneNumber.reverse();
