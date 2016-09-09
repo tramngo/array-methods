@@ -30,3 +30,9 @@ scrambledWords.reverse();
 
 var phoneNumber = [9, 0, 3, 5, 7, 6, 8];
 phoneNumber.reverse();
+
+var orderQueue = [{ takeOut: 'Ice Cream' }, { takeOut: 'Medium Salad'}, { takeOut: 'Burger'}];
+nextOrder = orderQueue.shift();
+
+
+
