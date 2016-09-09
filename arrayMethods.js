@@ -59,4 +59,20 @@ var randomThingsArray = genericNumberArray.concat(colors);
 
 var updatedOrders = orderQueue.concat({takeOut:'Macaroni Salad'}, {takeOut: 'Custard Pie'});
 
+var sentence = scrambledWords.join(' ');
 
+var myFruits = fruitCollection.join(' + ');
+
+var favoriteFriends = friends.slice(1,3);
+
+var owesMoney = friends.slice(3,6);
+
+var monthNameString = monthNames.toString();
+
+var favoriteColor = colors.indexOf('Red',1);
+
+var favoriteEvenNumber = mixedNums.indexOf(76,6);
+
+var lastNine = bulkNumbers.lastIndexOf(9);
+
+var lastFive = bulkNumbers.lastIndexOf(5);
